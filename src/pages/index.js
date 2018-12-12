@@ -22,7 +22,12 @@ class IndexPage extends React.Component {
         <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
         <h1>Hi people</h1>
         <p>This is an example of using Gatsby Link's `innerRef` prop.</p>
-        <p>View the source for this site at </p>
+        <p>
+          View the source for this site at{' '}
+          <a href="https://github.com/m-allanson/focus-gatsby-link">
+            github.com/m-allanson/focus-gatsby-link
+          </a>
+        </p>
         <p>Click the button to focus the link</p>
         <input
           className="button"
