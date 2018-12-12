@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.link {
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.link:focus {
+  border: 1px solid hotpink;
+}
+
+.link:focus::after {
+  content: ' link is focussed!';
+}
